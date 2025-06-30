@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751239809313,
+  "lastUpdate": 1751260227287,
   "repoUrl": "https://github.com/paritytech/polkadot-sdk",
   "entries": {
     "statement-distribution-regression-bench": [
@@ -52091,6 +52091,50 @@ window.BENCHMARK_DATA = {
           {
             "name": "statement-distribution",
             "value": 0.034314631741999994,
+            "unit": "seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pgherveou@gmail.com",
+            "name": "PG Herveou",
+            "username": "pgherveou"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0511431bf95ae81b284887100444bd1c560188e0",
+          "message": "Add address revive runtime API (#8851)\n\nThis gives an easy way for substrate user to convert an Account ID into\nthe mapped H160 address, by calling a new `address` runtime API\nfunction.\n\n---------\n\nCo-authored-by: cmd[bot] <41898282+github-actions[bot]@users.noreply.github.com>",
+          "timestamp": "2025-06-30T04:07:31Z",
+          "tree_id": "6edc783272386590f5912f28df95c8afc764d3e5",
+          "url": "https://github.com/paritytech/polkadot-sdk/commit/0511431bf95ae81b284887100444bd1c560188e0"
+        },
+        "date": 1751260208940,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Sent to peers",
+            "value": 127.93999999999997,
+            "unit": "KiB"
+          },
+          {
+            "name": "Received from peers",
+            "value": 106.39999999999996,
+            "unit": "KiB"
+          },
+          {
+            "name": "test-environment",
+            "value": 0.045594295573999945,
+            "unit": "seconds"
+          },
+          {
+            "name": "statement-distribution",
+            "value": 0.034400146126,
             "unit": "seconds"
           }
         ]
